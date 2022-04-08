@@ -11,11 +11,11 @@ int main(void)
 {
 int number;
 char alphabet;
-for (number = 0; number < 10; number++)
+for (number = 48; number <= 58; number++)
 {
-puchar(Stiring(number);
+puchar(number);
 }
-for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
+for (alphabet = 97; alphabet <= 102; alphabet++)
 {
 putchar(alphabet);
 }
