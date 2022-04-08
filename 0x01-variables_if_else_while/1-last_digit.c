@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -9,16 +10,16 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 5)
+	if (n % 10 > 5)
 	{
-		printf("%i Last digit of n is", n, "%i and is greater than 5\n");
+		printf("Last digit of %i is %i and is greater than 5\n", n, n % 10);
 	}
-	else if (n == 0)
+	else if (n % 10 == 0)
 	{
-		printf("%i Last digit of n is", n, "%i and is 0\n");
+		printf("Last digit of %i is %i and is 0\n", n, n % 10);
 	else
 	{
-		printf("%i Last digit of n is", n, "%i and is less than 6 and not 0\n");
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
 	}
 	return (0);
 }
