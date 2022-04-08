@@ -13,7 +13,7 @@ int number;
 char alphabet;
 for (number = 48; number <= 58; number++)
 {
-puchar(number);
+putchar(number);
 }
 for (alphabet = 97; alphabet <= 102; alphabet++)
 {
