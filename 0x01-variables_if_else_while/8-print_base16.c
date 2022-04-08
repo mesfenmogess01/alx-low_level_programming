@@ -9,11 +9,10 @@
 */
 int main(void)
 {
-int number;
 char alphabet;
-for (number = 48; number <= 58; number++)
+for (alphabet = 48; alphabet <= 58; alphabet++)
 {
-putchar(number);
+putchar(alphabet);
 }
 for (alphabet = 97; alphabet <= 102; alphabet++)
 {
