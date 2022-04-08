@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
-#include <time.h>
 
 /**
  * main - Entry point
@@ -14,6 +12,6 @@ for (number = 0; number < 10; number++)
 {
 printf("$number", number);
 }
-printf('\n');
+printf("\n");
 return (0);
 }
