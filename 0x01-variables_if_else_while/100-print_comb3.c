@@ -16,9 +16,8 @@ putchar((number1 % 10) + '0');
 putchar((number2 % 10) + '0');
 	
 if (number1 == 8 &&  number2 == 9)
-{
-continue;
-}
+	continue;
+
 putchar(',');
 putchar(' ');
 }
