@@ -9,11 +9,11 @@
 */
 int main(void)
 {
-	int n=0;
-	while (n>10)
+	int number;
+	for (number = 0; number < 10; number++
 	{
-		printf(n);
-		n++;
+		printf("$number", number);
 	}
+	printf('\n');
 	return (0);
 }
