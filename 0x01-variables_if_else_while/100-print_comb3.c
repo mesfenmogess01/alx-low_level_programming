@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
-#include <time.h>
 
 /**
  * main - Entry point
@@ -9,15 +7,16 @@
 */
 int main(void)
 {
-int n1, n2;
-for (n1 = 0; n1 < 9; n1++)
+int number1, number2;
+
+for (number1 = 0; number1 < 9; number1++)
 {
-for (n2 = n1 + 1; n2 < 10; n2++)
+for ( number2 = number1 + 1;  number2 < 10;  number2++)
 {
-putchar((n1 % 10) + '0');
-putchar((n2 % 10) + '0');
+putchar((number1 % 10) + '0');
+putchar(( number2 % 10) + '0');
 	
-if (n1 == 8 && n2 == 9)
+if (number1 == 8 &&  number2 == 9)
 {
 continue;
 
