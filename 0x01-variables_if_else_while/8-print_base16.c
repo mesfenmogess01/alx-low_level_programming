@@ -13,7 +13,7 @@ int number;
 char alphabet;
 for (number = 0; number < 10; number++)
 {
-putchar(number);
+puchar(Stiring(number);
 }
 for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
 {
