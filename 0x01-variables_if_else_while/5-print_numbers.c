@@ -7,10 +7,10 @@
 */
 int main(void)
 {
-int number;
-for (number = 0; number < 10; number++)
+int n;
+for (n = 0; n < 10; n++)
 {
-printf("$number", number);
+printf("$number", n);
 }
 printf("\n");
 return (0);
