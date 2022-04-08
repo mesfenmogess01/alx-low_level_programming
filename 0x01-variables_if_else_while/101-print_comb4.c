@@ -6,6 +6,7 @@
  * Return: Always 0 (Success)
 */
  int main(void)
+{
 int number1, number2, number3;
 
 for (number1 = 0; number1 < 8; number1++)
