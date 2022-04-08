@@ -10,7 +10,7 @@
 int main(void)
 {
 char alphabet;
-for (alphabet = 48; alphabet <= 58; alphabet++)
+for (alphabet = 48; alphabet <= 57; alphabet++)
 {
 putchar(alphabet);
 }
