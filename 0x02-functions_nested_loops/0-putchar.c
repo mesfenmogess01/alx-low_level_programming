@@ -6,12 +6,12 @@
 */
 int main(void)
 {
-	char putchar[] = "_putchar";
-	int c;
-	for (c = 0; c < 8; c++)
-	{
-		_putchar(putchar[c]);
-	}
-	_putchar('\n');
-	return (0);
+char putchar[] = "_putchar";
+int c;
+for (c = 0; c < 8; c++)
+{
+	_putchar(putchar[c]);
+}
+_putchar('\n');
+return (0);
 }
