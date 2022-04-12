@@ -14,7 +14,7 @@ _putchar(n);
 }
 else
 {
-_putchar((n*(-1));
+_putchar(n*(-1));
 }
 return (0);
 }
