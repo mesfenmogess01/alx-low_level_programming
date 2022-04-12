@@ -10,6 +10,6 @@ int add(int a, int b)
 {
 	int n;
 	n = a + b;
-	_putchar("%d\n", n);
+	_putchar(n);
 	return (0);
 }
