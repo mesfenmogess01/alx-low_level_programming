@@ -10,8 +10,8 @@ char putc[] = "_putchar";
 int c;
 for (c = 0; c < 8; c++)
 {
-_putchar(putc[c]);
+putchar(putc[c]);
  }
-_putchar('\n');
+putchar('\n');
 return (0);
 }
