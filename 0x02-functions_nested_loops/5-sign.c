@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign(int n) - return 1 if n > 0 return 0 if n = 0 and return -1 if n < 0.
+ * print_sign - return 1 if n > 0 return 0 if n = 0 and return -1.
  * @n: nember.
  * Return: Alwys 0.
 */
@@ -20,7 +20,7 @@ else if (n == 0)
 else
 {
 	_putchar('-');
-	return(-1);
+	return (-1);
 }
 return (0);
 }
