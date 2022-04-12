@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *  * main - entry block
- *   *
- *    * Return: 0
- *    */
+ * main - entry block
+ *
+ * Return: 0
+*/
 int main(void)
 {
 	char putchar[] = "_putchar";
