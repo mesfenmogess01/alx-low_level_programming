@@ -6,12 +6,12 @@
 */
 int main(void)
 {
-char putc[] = "_putchar";
+char mesfen[] = "_putchar";
 int c;
 for (c = 0; c < 8; c++)
 {
-putchar(putc[c]);
+_putchar(mesfen[c]);
  }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
