@@ -26,6 +26,7 @@ else
 {
 firstt_number = result / 10;
 second_number = result % 10;
+_putchar(first_number + '0';
 }
 _putchar(second_number + '0');
 
