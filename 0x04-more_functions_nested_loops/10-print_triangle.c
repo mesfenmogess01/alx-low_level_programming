@@ -19,14 +19,14 @@ for (i = 0; i < size; i++)
 {
 for (z = d; z > 0; z--)
 {
-putchar(' ');
+_putchar(' ');
 }
 for (p = 0; p <= i; p++)
 {
 _putchar(35);
 }
 d--;
--putchar('\n');
+_putchar('\n');
 }
 
 }
