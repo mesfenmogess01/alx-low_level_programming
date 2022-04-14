@@ -10,29 +10,17 @@
 
 void more_numbers(void)
 {
-int i;
-int first_number;
-int second_number;
-int result;
-i = 0;
-result = 0;
-while (i < 10)
+int i, tens, units, row;
+for (row = 1; row <= 10; row++)
 {
-if (result < 10)
+for (i = 0; i <= 14; i++)
 {
-second_number = result;
+tens = i / 10;
+unit = i % 10;
+if (i > 9)
+	_putchar(tens + '0');
+-putchar(unit + '0');
 }
-else
-{
-firstt_number = result / 10;
-second_number = result % 10;
-_putchar(first_number + '0';
-}
-_putchar(second_number + '0');
-
-result++;
-}
-i++;
-result = 0;
 _putchar('\n');
+}
 }
