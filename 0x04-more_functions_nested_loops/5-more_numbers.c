@@ -1,9 +1,6 @@
 #include "main.h"
-
 /**
  * more_numbers - enter point
- *
- * Description: print the numbers in _putchar
  *
  * Return: void
  */
@@ -19,9 +16,9 @@ tens = i / 10;
 unit = i % 10;
 if (i > 9)
 {
-	_putchar(tens + '0');
+_putchar(tens + '0');
 }
--putchar(unit + '0');
+_putchar(unit + '0');
 }
 _putchar('\n');
 }
