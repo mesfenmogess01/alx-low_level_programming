@@ -7,11 +7,7 @@
 
 void more_numbers(void)
 {
-int i;
-int first_number;
-int second_number;
-int result;
-
+int i, first_number, second_number, result;
 i = 1;
 result = 0;
 while (i < 10)
@@ -29,7 +25,6 @@ second_number = result % 10;
 _putchar(first_number + '0');
 }
 _putchar(second_number + '0');
-
 result++;
 }
 i++;
