@@ -18,7 +18,9 @@ for (i = 0; i <= 14; i++)
 tens = i / 10;
 unit = i % 10;
 if (i > 9)
+{
 	_putchar(tens + '0');
+}
 -putchar(unit + '0');
 }
 _putchar('\n');
