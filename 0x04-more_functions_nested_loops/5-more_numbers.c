@@ -7,19 +7,33 @@
 
 void more_numbers(void)
 {
-int i, tens, units, row;
-for (row = 1; row <= 10; row++)
+int i;
+int first_number;
+int second_number;
+int result;
+
+i = 1;
+result = 0;
+while (i < 10)
 {
-for (i = 0; i <= 14; i++)
+while (result <= 14)
 {
-tens = i / 10;
-unit = i % 10;
-if (i > 9)
+if (result < 10)
 {
-_putchar(tens + '0');
+second_number = result;
 }
-_putchar(unit + '0');
+else
+{
+first_number = result / 10;
+second_number % 10;
+_putchar(first_number + '0');
 }
+_putchar(second_number + '0');
+
+result++;
+}
+i++;
+result = 0;
 _putchar('\n');
 }
 }
