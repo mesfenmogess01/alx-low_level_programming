@@ -5,8 +5,10 @@
  *
  * Description: print lines
  * @n: number of lines
+ *
  * Return: void
  */
+
 void print_line(int n)
 {
 int num_lines;
@@ -19,8 +21,8 @@ else
 {
 for (num_lines = 1; num_lines <= n; num_lines++)
 {
-	_putchar('_');
-
+_putchar('_');
 }
 _putchar('\n');
+}
 }
