@@ -8,7 +8,10 @@
  */
 void _puts(char *str)
 {
-str = "he mesfen ";
-_putchar(str);
-return (0);
+int i;
+for (i = 0; str[i] != '\o'; i++)
+{
+	_putchar(str[i]);
+}
+_putchar('\n';
 }
