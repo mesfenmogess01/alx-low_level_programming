@@ -2,9 +2,9 @@
 
 /**
  * _puts - print string
- * @str: string 
  *
- * Return: Aweys 0
+ * @str: string
+ *
  */
 void _puts(char *str)
 {
