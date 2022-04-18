@@ -2,7 +2,8 @@
 
 /**
  * swap.c - swaps two integer
- * @c: swap number
+ * @a: first integer
+ * @b: second integer
  *
  * Return: Alweys 0.
  */
