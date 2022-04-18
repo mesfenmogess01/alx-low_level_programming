@@ -9,10 +9,8 @@
 void swap_int(int *a, int *b)
 {
 	int c;
-	_putchar("a=%d, b=%d\n", a, b);
 	a = c;
 	a = b;
 	c = b;
-	_putchar("a=%d, b=%d\n", a, b);
-return (0);
+return (a, b);
 }
