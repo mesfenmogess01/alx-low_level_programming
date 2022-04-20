@@ -4,9 +4,10 @@
  * reverse_array  - reverse the content of an array
  * @a: an array of integers
  * @n: the number of elements to swap
- * 
+ *
  * Return: void.
  */
+
 void reverse_array(int *a, int n)
 {
 int *start_c, *end_c, c;
