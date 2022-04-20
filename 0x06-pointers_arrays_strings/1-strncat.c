@@ -7,6 +7,7 @@
  * @n: value
  * Return: dest
 */
+
 char *_strcat(char *dest, char *src, int n)
 {
 int i, j;
