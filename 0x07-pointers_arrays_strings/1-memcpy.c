@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _memcpy - Copies memory area
  *
@@ -16,6 +17,5 @@ unsigned int i;
 for (i = 0; i < n; i++)
 dest[i] = src[i];
 
-	
 return (dest);
 }
