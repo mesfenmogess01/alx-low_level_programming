@@ -6,7 +6,7 @@
  *
  * Return: flag
  */
-int wildcmp(char* s1, char* s2)
+void wildcmp(char* s1, char* s2)
 {
 int flag = 0;
 while (*s1 != '\0' || *s2 != '\0') {
