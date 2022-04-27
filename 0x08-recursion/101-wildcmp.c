@@ -19,7 +19,7 @@ else if ((*s1 == '\0' && *s2 != '\0') || (*s1 != '\0' && *s2 == '\0') || *s1 != 
 	break;
 }
 }
-return flag;
+return (flag);
 }
 /**
  * main - main
