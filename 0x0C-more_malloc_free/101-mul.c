@@ -25,8 +25,8 @@ int find_len(char *str)
 }
 
 /**
- * create_xarray - Creates an array of chars and initializes
- * @size: The size of the array to be initialized.
+ * create_xarray - Creates an array o
+ * @size: The size of the arrays
  *
  * Description: If there is insufficient space
  * Return: A pointer to the array.
@@ -51,7 +51,7 @@ char *create_xarray(int size)
 
 /**
  * iterate_zeroes - Iterates through a string
- * @str: The string of numbers to be iterate through.
+ * @str: The string of numbers
  *
  * Return: A pointer to the next non-zero element.
  */
@@ -64,10 +64,10 @@ char *iterate_zeroes(char *str)
 }
 
 /**
- * get_digit - Converts a digit character to a corresponding int.
+ * get_digit - Converts a digit character
  * @c: The character to be converted.
  *
- * Description: If c is a non-digit, the function
+ * Description: If c is a non-digit
  * Return: The converted int.
  */
 int get_digit(char c)
@@ -84,7 +84,7 @@ int get_digit(char c)
 }
 
 /**
- * get_prod - Multiplies a string of numbers by a single digit.
+ * get_prod - Multiplies a string of numbers
  * @prod: The buffer to store the result.
  * @mult: The string of numbers.
  * @digit: The single digit.
@@ -133,7 +133,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 
 /**
  * add_nums - Adds the numbers stored in two strings.
- * @final_prod: The buffer storing the running final product.
+ * @final_prod: The buffer storing.
  * @next_prod: The next product to be added.
  * @next_len: The length of next_prod.
  */
@@ -175,7 +175,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 
 /**
  * main - Multiplies two positive numbers.
- * @argv: The number of arguments passed to the program.
+ * @argv: The number of arguments.
  * @argc: An array of pointers to the arguments.
  *
  * Description: If the number of arguments
