@@ -1,13 +1,6 @@
 #include "main.h"
-#include <stdio.h>
 
-/**
- * main - check the code
- *
- * Return: Always EXIT_SUCCESS.
- */
-int main(void)
+int add(int a, int b)
 {
-	printf("%d\n", _strlen("My Dyn Lib"));
-	return (EXIT_SUCCESS);
+	return (a + b);
 }
