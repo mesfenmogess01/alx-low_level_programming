@@ -6,8 +6,7 @@
  *
  * Return: Always EXIT_SUCCESS.
  */
-int main(void)
+int add(int a, b)
 {
-	printf("%d\n", _strlen("My Dyn Lib"));
-	return (EXIT_SUCCESS);
+	return (a + b);
 }
