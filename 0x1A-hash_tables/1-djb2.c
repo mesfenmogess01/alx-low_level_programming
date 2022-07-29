@@ -1,7 +1,6 @@
-#include "hash_tables.h
-
+#include "hash_tables.h"
 /**
- * hash_djb2 - Computes the hash of an array of bytes using the db2 algorithm.
+ * hash_djb2 - Computes the hash of an array.
  * @str: The byte array.
  *
  * Return: A fixed size unsigned integer digest.
