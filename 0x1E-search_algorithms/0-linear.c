@@ -2,14 +2,14 @@
 
 /**
  * linear_search - Searches for a value in an array.
- * @array: A pointer to the first element of the array to search.
+ * @array: A pointer to the first element of the array.
  * @size: The number of elements in the array.
  * @value: The value to search for.
  *
  * Return: If the value is not present or the array is NULL, -1.
  *        Otherwise, the first index where the value is located.
  *
- * Description: Prints a value every time it is compared in the array.
+ * Description: Prints a value every time compared in the array.
  */
 int linear_search(int *array, size_t size, int value)
 {
@@ -25,5 +25,5 @@ int linear_search(int *array, size_t size, int value)
 			return (i);
 	}
 
-return (-1);
+	return (-1);
 }
